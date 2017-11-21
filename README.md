@@ -1,2 +1,2 @@
 # patryk-szwed
-Koteł/BotQ
+BotQ
