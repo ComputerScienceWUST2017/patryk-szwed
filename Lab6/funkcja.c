@@ -34,6 +34,7 @@ void change2UpperCase(char s)
             printf("\n");
         }
         else printf("%c", c);
+		puts("a");
     }
 }
 void switchCase(char s)
