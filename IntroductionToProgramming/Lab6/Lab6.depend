@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1511277013 source:c:\users\patry\documents\i2p\labs\6\lab6\func.c
+	<stdio.h>
+	<stdlib.h>
+	"func.h"
+
+1511277205 c:\users\patry\documents\i2p\labs\6\lab6\func.h
+
+1511277205 source:c:\users\patry\documents\i2p\labs\6\lab6\main.c
+	<stdio.h>
+	<stdlib.h>
+	"func.h"
+

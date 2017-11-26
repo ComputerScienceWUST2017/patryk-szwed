@@ -1,2 +1,2 @@
 # patryk-szwed
-BotQ
+BotQ. New to git :>
