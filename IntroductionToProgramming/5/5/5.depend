@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1511177400 source:c:\users\patry\documents\i2p\labs\5\5\main.c
+	<stdio.h>
+	<stdlib.h>
+	"RangeSelection.h"
+
+1511116755 c:\users\patry\documents\i2p\labs\5\5\rangeselection.h
+	<stdbool.h>
+
+1511177605 source:c:\users\patry\documents\i2p\labs\5\5\rangeselection.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<string.h>
+	"RangeSelection.h"
+
