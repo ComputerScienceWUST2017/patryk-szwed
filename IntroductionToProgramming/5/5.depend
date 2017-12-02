@@ -14,3 +14,18 @@
 	<string.h>
 	"RangeSelection.h"
 
+1511741599 source:c:\users\patry\documents\i2p\git\patryk-szwed\introductiontoprogramming\5\main.c
+	<stdio.h>
+	<stdlib.h>
+	"RangeSelection.h"
+
+1511741599 c:\users\patry\documents\i2p\git\patryk-szwed\introductiontoprogramming\5\rangeselection.h
+	<stdbool.h>
+
+1511741599 source:c:\users\patry\documents\i2p\git\patryk-szwed\introductiontoprogramming\5\rangeselection.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<string.h>
+	"RangeSelection.h"
+
