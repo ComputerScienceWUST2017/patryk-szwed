@@ -26,6 +26,7 @@ char * lineCalc()
 
     while(scanf("%s", str) != EOF)
     {
+        printf("%s ", str);
         if(is_value)    //if there was a value, reset the number array and set is_value to false
         {
             number[1] = 0;

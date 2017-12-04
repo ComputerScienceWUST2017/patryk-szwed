@@ -10,7 +10,7 @@ int main(int argc, char * argv[])
     {
         result = lineCalc();
         if(result != NULL)
-            printf("\nResult = %s", result);
+            printf(" has the value: %s \n", result);
     }
     printf("\n");
 

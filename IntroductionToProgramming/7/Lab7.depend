@@ -32,3 +32,29 @@
 	<stdlib.h>
 	"func.h"
 
+1512256528 source:c:\users\patry\documents\i2p\git\patryk-szwed\introductiontoprogramming\7\func.c
+	<stdio.h>
+	<stdlib.h>
+	"func.h"
+
+1512252450 c:\users\patry\documents\i2p\git\patryk-szwed\introductiontoprogramming\7\func.h
+	<string.h>
+	<ctype.h>
+	<stdbool.h>
+
+1512253709 source:c:\users\patry\documents\i2p\git\patryk-szwed\introductiontoprogramming\7\operations.c
+	<stdio.h>
+	<stdlib.h>
+	"func.h"
+
+1512386111 source:c:\users\patry\documents\i2p\git\patryk-szwed\introductiontoprogramming\7\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"func.h"
+
+1512386063 source:c:\users\patry\documents\i2p\git\patryk-szwed\introductiontoprogramming\7\linecalc.c
+	<stdio.h>
+	<stdlib.h>
+	"func.h"
+
