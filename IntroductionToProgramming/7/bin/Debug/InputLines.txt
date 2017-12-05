@@ -5,3 +5,5 @@ prev subtract 1 =
 dsdasad prev / 2 equals
 5.3 + * 5 =
 967 divide 10 =
+5 + * 2 =
+prev + 3 + 4 * 2 = 

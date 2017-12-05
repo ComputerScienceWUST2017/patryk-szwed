@@ -1,11 +1,3 @@
-/*WORK IN PROGRESS*/
-/*WORK IN PROGRESS*/
-/*WORK IN PROGRESS*/
-/*WORK IN PROGRESS*/
-/*WORK IN PROGRESS*/
-/*WORK IN PROGRESS*/
-
-
 #include <stdio.h>
 #include <stdlib.h>
 #include "func.h"
