@@ -48,7 +48,7 @@ int readData(personalData ar[], int len)
 
     personalData person;
 
-    person.remarks = '\0';
+    person.remarks = '\0';  //set the last person's remarks to '\0'(it's necessary in order to have a guardian)
     ar[i] = person;
 
     return i;
@@ -58,14 +58,14 @@ int getOldestPerson(personalData data[])
 {
     int oldestIndex = 0; //used to search for the oldest Person
 
-    if(data == NULL)
+    if(data == NULL)    //if data is NULL, return -1
         return -1;
 
     int i = 0;
 
     while(data[i].remarks != '\0')  //if remarks is set to \0, just stop searching
     {
-        if(data[i].age > data[oldestIndex].age)
+        if(data[i].age > data[oldestIndex].age) //compare their age
             oldestIndex = i;
         ++i;
     }
@@ -81,7 +81,7 @@ int getSlimmestPerson(personalData data[], int len)
 
     for(int i = 0; i < len; ++i)
     {
-        if(data[i].weight < data[slimmestIndex].weight)
+        if(data[i].weight < data[slimmestIndex].weight) //compare their weight
             slimmestIndex = i;
     }
     return slimmestIndex;
