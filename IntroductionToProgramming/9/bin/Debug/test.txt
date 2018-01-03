@@ -1,0 +1,11 @@
+John;21;73.6;exceptionally good student;
+Patryk;19;90.4;test;
+Test;22;71.1;ddsa;
+Andrew;33;95.2;erewrewew test;
+Julia;21;52.3;wqewq12212dscxz 3ewqsa;
+Jessica;15;44.8;dsadsa ewqpokeqwp xx;
+Leon;21;70.2;zc test test;
+Jan;57;82.1;test ewqewq ts;
+Kamil;21;64.2;aaaa dassda test;
+Well;24;65.4;ewqewqdcvf dsae;
+;99;22.3;blad;
