@@ -4,10 +4,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <stdbool.h>
 
 typedef struct
 {
-    char name[20];
+    char name[20];  //reserve memory for name
     char * remarks;
     int age;
     float weight;

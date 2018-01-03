@@ -16,5 +16,7 @@ int main()
 
     puts("\nEnd of work!");
 
+    system("PAUSE");
+
     return 0;
 }

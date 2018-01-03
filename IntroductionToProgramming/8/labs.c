@@ -1,24 +1,48 @@
 #include "labs.h"
 
+//ERROR CHECKING DOESN'T WORK
+
 personalData getPersonDesc(char * line)
 {
     personalData person;
     char * token;
+    bool error = false;
 
     token = strtok(line, ";");  //starts searching the string until the semicolon
-    snprintf(person.name, 20, "%s", token); //copy token into person.name
+    if(token == NULL)
+    {
+        person.age = 0;
+        snprintf(person.name, 20, "%s", token);
+        error = true;
+    }
+    else
+        snprintf(person.name, 20, "%s", token); //copy token into person.name
 
     token = strtok(NULL, ";");  //now start from the previous place(don't start from the beginning of the line)
-    if(atoi(token) != 0)        //checks if conversion was valid
+    if(atoi(token) != 0 && !error)        //checks if conversion was valid
         person.age = atoi(token);
     else
-        puts("Not a valid age.");
+    {
+        person.age = 0;
+        error = true;
+    }
+    if(token == NULL)
+    {
+        person.age = 0;
+    }
 
     token = strtok(NULL, ";");
     if(atof(token) != 0)
         person.weight = atof(token);
     else
-        puts("Not a valid weight.");
+    {
+        person.weight = 999.9;
+        error = true;
+    }
+    if(token == NULL)
+    {
+        person.weight = 999.9;
+    }
 
     token = strtok(NULL, ";");
     person.remarks = malloc(50);   //allocate memory for remark as it hasn't been allocated yet
@@ -48,7 +72,7 @@ int readData(personalData ar[], int len)
 
     personalData person;
 
-    person.remarks = '\0';  //set the last person's remarks to '\0'(it's necessary in order to have a guardian)
+    person.remarks = '\0';
     ar[i] = person;
 
     return i;
@@ -58,14 +82,14 @@ int getOldestPerson(personalData data[])
 {
     int oldestIndex = 0; //used to search for the oldest Person
 
-    if(data == NULL)    //if data is NULL, return -1
+    if(data == NULL)
         return -1;
 
     int i = 0;
 
     while(data[i].remarks != '\0')  //if remarks is set to \0, just stop searching
     {
-        if(data[i].age > data[oldestIndex].age) //compare their age
+        if(data[i].age > data[oldestIndex].age)
             oldestIndex = i;
         ++i;
     }
@@ -81,7 +105,7 @@ int getSlimmestPerson(personalData data[], int len)
 
     for(int i = 0; i < len; ++i)
     {
-        if(data[i].weight < data[slimmestIndex].weight) //compare their weight
+        if(data[i].weight < data[slimmestIndex].weight)
             slimmestIndex = i;
     }
     return slimmestIndex;
